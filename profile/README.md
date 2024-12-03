@@ -21,5 +21,10 @@ These are modules that are available to all installations.
 | [muk-web-theme](https://github.com/Baker-Street-Network/muk-web-theme)                       | 18.0       | Adds an Enterprise-like theme to the Community edition.     |
 | [telerik-reporting-module](https://github.com/Baker-Street-Network/telerik-reporting-module) | 17.0, 18.0 | Requires the Telerik Reporting binary to be running.        |
 
+To install one of these modules, use the following command:
+`git submodule add "https://github.com/Baker-Street-Network/telerik-reporting-module" .\addons\telerik-reporting-module`
+
+A note on the `muk-web-theme` and the `base-accounting-kit`. Both of these have sub-folders, so you may want to check these out in their own addons folders, then include this in the Dockerfile's run command manually.
+
 ### Initializing an Instance
 To create a new instance, follow the instructions in the [odoo-template repository](https://github.com/Baker-Street-Network/odoo-template).
