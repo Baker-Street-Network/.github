@@ -1,4 +1,11 @@
-## Hi there 👋
+## Welcome to Baker Street 👋
+This is the central location for managing our Odoo projects. You can see our installations and available modules below.
+
+| Instance                   | Edition      | Version | Build Status     |
+| -------------------------- | ------------ | ------- | ---------------- |
+| erp.crop-doc.com           | Enterprise   | 17.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/crop-doc/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/crop-doc/actions/workflows/build_and_deploy.yml)
+| erp.keilycattle.com        | Enterprise   | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/keily-cattle/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/keily-cattle/actions/workflows/build_and_deploy.yml)
+| olivetree.software         | Enterprise   | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/stauffer-enterprises/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/stauffer-enterprises/actions/workflows/build_and_deploy.yml)
 
 <!--
 
