@@ -17,10 +17,11 @@ These are modules that are available to all installations.
 
 | Module                   | Version(s)    | Notes             |
 | ------------------------ | ------------- | ----------------- |
-| [base-accounting-kit](https://github.com/Baker-Street-Network/base-accounting-kit)           | 18.0       | Adds advanced accounting features to the Community edition.      |
-| [muk-web-theme](https://github.com/Baker-Street-Network/muk-web-theme)                       | 18.0       | Adds an Enterprise-like theme to the Community edition.          |
-| [telerik-reporting-module](https://github.com/Baker-Street-Network/telerik-reporting-module) | 17.0, 18.0 | Requires the Telerik Reporting binary to be running.             |
-| [knowledge-scaffold](https://github.com/Baker-Street-Network/knowledge-scaffold)             | 17.0, 18.0 | Uses OpenAI to generate a list of questions from KB articles.    |
+| [base-accounting-kit](https://github.com/Baker-Street-Network/base-accounting-kit)           | 18.0       | Adds advanced accounting features to the Community edition.              |
+| [muk-web-theme](https://github.com/Baker-Street-Network/muk-web-theme)                       | 18.0       | Adds an Enterprise-like theme to the Community edition.                  |
+| [telerik-reporting-module](https://github.com/Baker-Street-Network/telerik-reporting-module) | 17.0, 18.0 | Requires the Telerik Reporting binary to be running.                     |
+| [knowledge-scaffold](https://github.com/Baker-Street-Network/knowledge-scaffold)             | 17.0, 18.0 | Uses OpenAI to generate a list of questions from KB articles.            |
+| [zip_fill](https://github.com/Baker-Street-Network/zip_fill)                                 | 17.0, 18.0 | Fills city and state from zip code. Add county and township from Mapbox. |
 
 To install one of these modules, use the following command:
 `git submodule add "https://github.com/Baker-Street-Network/telerik-reporting-module" .\addons\telerik-reporting-module`
