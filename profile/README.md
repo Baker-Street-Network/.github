@@ -30,6 +30,8 @@ These are modules that are available to all installations.
 | [knowledge-full-text](https://github.com/Baker-Street-Network/knowledge-full-text)           | 17.0       | Allows full text searching of the Knowledge module.                      |
 | [knowledge-camera](https://github.com/Baker-Street-Network/knowledge-camera)                 | 17.0       | Allows capturing images straight from the Odoo module.                   |
 | [cd-styles](https://github.com/Baker-Street-Network/cd-styles)                               | 17.0       | Enlarges buttons and various other tweaks.                               |
+| [itlibertas-timesheet](https://github.com/Baker-Street-Network/itlibertas-timesheet)         | 18.0       | Timesheet tracking for Odoo Community                                    |
+| [bi-plaid-integration](https://github.com/Baker-Street-Network/bi-plaid-integration)         | 18.0       | A Plaid integration for Odoo Community                                   |
 
 To install one of these modules, use the following command:
 `git submodule add "https://github.com/Baker-Street-Network/telerik-reporting-module" .\addons\telerik-reporting-module`
