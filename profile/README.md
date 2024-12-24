@@ -19,9 +19,17 @@ These are modules that are available to all installations.
 | ------------------------ | ------------- | ----------------- |
 | [base-accounting-kit](https://github.com/Baker-Street-Network/base-accounting-kit)           | 18.0       | Adds advanced accounting features to the Community edition.              |
 | [muk-web-theme](https://github.com/Baker-Street-Network/muk-web-theme)                       | 18.0       | Adds an Enterprise-like theme to the Community edition.                  |
-| [telerik-reporting-module](https://github.com/Baker-Street-Network/telerik-reporting-module) | 17.0, 18.0 | Requires the Telerik Reporting binary to be running.                     |
+| [telerik-reporting](https://github.com/Baker-Street-Network/telerik-reporting)               | 17.0, 18.0 | Requires the Telerik Reporting binary to be running.                     |
 | [knowledge-scaffold](https://github.com/Baker-Street-Network/knowledge-scaffold)             | 17.0, 18.0 | Uses OpenAI to generate a list of questions from KB articles.            |
-| [zip_fill](https://github.com/Baker-Street-Network/zip_fill)                                 | 17.0, 18.0 | Fills city and state from zip code. Add county and township from Mapbox. |
+| [zip-fill](https://github.com/Baker-Street-Network/zip-fill)                                 | 17.0, 18.0 | Fills city and state from zip code. Add county and township from Mapbox. |
+| [web-refresher](https://github.com/Baker-Street-Network/web-refresher)                       | 17.0       | Adds a refresh button to all views.                                      |
+| [auto-upgrade](https://github.com/Baker-Street-Network/auto-upgrade)                         | 17.0       | Works with the GitHub Actions scripts to automatically upgrade.          |
+| [advanced-keyboard...](https://github.com/Baker-Street-Network/advanced-keyboard-shortcuts)  | 17.0       | Adds more keyboard shortcuts.                                            |
+| [auto-database-backup](https://github.com/Baker-Street-Network/auto-database-backup)         | 17.0       | Auto database backup module.                                             |
+| [odoo-development-pack](https://github.com/Baker-Street-Network/odoo-development-pack)       | 17.0       | Mainly disables websockets for breakpoints.                              |
+| [knowledge-full-text](https://github.com/Baker-Street-Network/knowledge-full-text)           | 17.0       | Allows full text searching of the Knowledge module.                      |
+| [knowledge-camera](https://github.com/Baker-Street-Network/knowledge-camera)                 | 17.0       | Allows capturing images straight from the Odoo module.                   |
+| [cd-styles](https://github.com/Baker-Street-Network/cd-styles)                               | 17.0       | Enlarges buttons and various other tweaks.                               |
 
 To install one of these modules, use the following command:
 `git submodule add "https://github.com/Baker-Street-Network/telerik-reporting-module" .\addons\telerik-reporting-module`
