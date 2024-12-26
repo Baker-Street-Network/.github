@@ -11,6 +11,8 @@ This is the central location for managing our Odoo projects. You can see our ins
 | [sidney.cropdoc.report](https://sidney.cropdoc.report) | Community    | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/sidney-rudolph/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/sidney-rudolph/actions/workflows/build_and_deploy.yml)
 | [shepherdspathway.org](https://shepherdspathway.org)   | Community    | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/shepherds-pathway/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/shepherds-pathway/actions/workflows/build_and_deploy.yml)
 | [mtntrails.org](https://mtntrails.org)                 | Community    | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/mtn-trails/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/mtn-trails/actions/workflows/build_and_deploy.yml)
+| [kent.cropdoc.report](https://kent.cropdoc.report)     | Community    | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/kent-martin/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/kent-martin/actions/workflows/build_and_deploy.yml)
+| [nathan.cropdoc.report](https://nathan.cropdoc.report) | Community    | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/nathan-martin/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/nathan-martin/actions/workflows/build_and_deploy.yml)
 
 ### Local Modules
 These are modules that are available to all installations.
@@ -34,7 +36,7 @@ These are modules that are available to all installations.
 | [bi-plaid-integration](https://github.com/Baker-Street-Network/bi-plaid-integration)         | 18.0       | A Plaid integration for Odoo Community                                   |
 
 To install one of these modules, use the following command:
-`git submodule add "https://github.com/Baker-Street-Network/telerik-reporting-module" .\addons\telerik-reporting-module`
+`git submodule add "https://github.com/Baker-Street-Network/telerik-reporting-module" .\addons\telerik-reporting
 
 A note on the `muk-web-theme` and the `base-accounting-kit`. Both of these have sub-folders, so you may want to check these out in their own addons folders, then include this in the Dockerfile's run command manually.
 
