@@ -35,6 +35,7 @@ These are modules that are available to all installations.
 | [cd-styles](https://github.com/Baker-Street-Network/cd-styles)                               | 17.0       | Enlarges buttons and various other tweaks.                               |
 | [itlibertas-timesheet](https://github.com/Baker-Street-Network/itlibertas-timesheet)         | 18.0       | Timesheet tracking for Odoo Community                                    |
 | [bi-plaid-integration](https://github.com/Baker-Street-Network/bi-plaid-integration)         | 18.0       | A Plaid integration for Odoo Community                                   |
+| [dev-login](https://github.com/Baker-Street-Network/dev-login)                               | 17.0       | Allows users to login as any user if they are running on localhost.      |
 
 To install one of these modules, use the following command:
 `git submodule add "https://github.com/Baker-Street-Network/telerik-reporting-module" .\addons\telerik-reporting
