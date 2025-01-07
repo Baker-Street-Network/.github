@@ -15,6 +15,7 @@ This is the central location for managing our Odoo projects. You can see our ins
 | [kent.cropdoc.report](https://kent.cropdoc.report)     | Community    | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/kent-martin/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/kent-martin/actions/workflows/build_and_deploy.yml)
 | [nathan.cropdoc.report](https://nathan.cropdoc.report) | Community    | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/nathan-martin/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/nathan-martin/actions/workflows/build_and_deploy.yml)
 | [accounting.nsinnovations.net](accounting.nsinnovations.net) | Community    | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/kings-tech/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/kings-tech/actions/workflows/build_and_deploy.yml)
+| [kevin.cropdoc.report](kevin.cropdoc.report)           | Community    | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/kevin-martin/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/kevin-martin/actions/workflows/build_and_deploy.yml)
 
 ### Local Modules
 These are modules that are available to all installations.
