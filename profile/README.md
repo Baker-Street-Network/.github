@@ -27,7 +27,7 @@ These are modules that are available to all installations.
 | [knowledge-scaffold](https://github.com/Baker-Street-Network/knowledge-scaffold)             | 17.0, 18.0 | Uses OpenAI to generate a list of questions from KB articles.            |
 | [zip-fill](https://github.com/Baker-Street-Network/zip-fill)                                 | 17.0, 18.0 | Fills city and state from zip code. Add county and township from Mapbox. |
 | [web-refresher](https://github.com/Baker-Street-Network/web-refresher)                       | 17.0       | Adds a refresh button to all views.                                      |
-| [auto-upgrade](https://github.com/Baker-Street-Network/auto-upgrade)                         | 17.0       | Works with the GitHub Actions scripts to automatically upgrade.          |
+| [auto-upgrader](https://github.com/Baker-Street-Network/auto-upgrader)                       | 17.0       | Works with the GitHub Actions scripts to automatically upgrade.          |
 | [advanced-keyboard...](https://github.com/Baker-Street-Network/advanced-keyboard-shortcuts)  | 17.0       | Adds more keyboard shortcuts.                                            |
 | [auto-database-backup](https://github.com/Baker-Street-Network/auto-database-backup)         | 17.0       | Auto database backup module.                                             |
 | [odoo-development-pack](https://github.com/Baker-Street-Network/odoo-development-pack)       | 17.0       | Mainly disables websockets for breakpoints.                              |
