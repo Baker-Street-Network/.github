@@ -41,9 +41,12 @@ These are modules that are available to all installations.
 | [qr-menu](https://github.com/Baker-Street-Network/qr-menu)                                   | 18.0       | Adds a QR Code to the upper-right hand menu for app login.               |
 
 To install one of these modules, use the following command:
-`git submodule add "https://github.com/Baker-Street-Network/telerik-reporting-module" .\addons\telerik-reporting
+`git submodule add "https://github.com/Baker-Street-Network/module-name" ./addons/module_name
 
 A note on the `muk-web-theme` and the `base-accounting-kit`. Both of these have sub-folders, so you may want to check these out in their own addons folders, then include this in the Dockerfile's run command manually.
+
+If you are moving a module from a repository to a Git submodule, you'll have to clean the index first:
+`git rm -r --cached addons/module_name`
 
 ### Initializing an Instance
 To create a new instance, follow the instructions in the [odoo-template repository](https://github.com/Baker-Street-Network/odoo-template).
