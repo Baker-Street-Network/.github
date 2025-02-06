@@ -1,6 +1,8 @@
 ## Welcome to Baker Street 👋
 This is the central location for managing our Odoo projects. You can see our installations and available modules below.
 
+Our status page is hosted by UptimeRobot and is [available here](https://status.bakerstreet.network).
+
 ### Odoo Installations
 | Instance                                               | Edition      | Version | Build Status     |
 | ------------------------------------------------------ | ------------ | ------- | ---------------- |
