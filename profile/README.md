@@ -42,6 +42,7 @@ These are modules that are available to all installations.
 | [bi-plaid-integration](https://github.com/Baker-Street-Network/bi-plaid-integration)         | 18.0       | A Plaid integration for Odoo Community                                   |
 | [dev-login](https://github.com/Baker-Street-Network/dev-login)                               | 17.0, 18.0 | Allows users to login as any user if they are running on localhost.      |
 | [qr-menu](https://github.com/Baker-Street-Network/qr-menu)                                   | 18.0       | Adds a QR Code to the upper-right hand menu for app login.               |
+| [telnyx-broadcasting](https://github.com/Baker-Street-Network/telnyx-broadcasting)           | 18.0       | Adds the ability to send call broadcasts from Odoo via Telnyx.           |
 
 To install one of these modules, use the following command:
 `git submodule add "https://github.com/Baker-Street-Network/module-name" ./addons/module_name
