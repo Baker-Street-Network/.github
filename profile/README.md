@@ -45,6 +45,9 @@ These are modules that are available to all installations.
 | [qr-menu](https://github.com/Baker-Street-Network/qr-menu)                                   | 18.0       | Adds a QR Code to the upper-right hand menu for app login.               |
 | [telnyx-broadcasting](https://github.com/Baker-Street-Network/telnyx-broadcasting)           | 18.0       | Adds the ability to send call broadcasts from Odoo via Telnyx.           |
 | [easypost-stamps](https://github.com/Baker-Street-Network/easypost-stamps)                   | 18.0       | Connects to the EasyPost API to support stamp printing.                  |
+| [knowledgebase](https://github.com/Baker-Street-Network/knowledgebase)                       | 18.0       | Makes Knowledge articles available to the website.                       |
+| [google-console](https://github.com/Baker-Street-Network/google-console)                     | 18.0       | Connects to the Google Cloud console to sync information to Odoo.        |
+| [website-downloads](https://github.com/Baker-Street-Network/website-downloads)               | 18.0       | Makes downloads available from the website.                              |
 
 To install one of these modules, use the following command:
 `git submodule add "https://github.com/Baker-Street-Network/module-name" ./addons/module_name
