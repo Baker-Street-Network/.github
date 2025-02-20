@@ -37,7 +37,7 @@ These are modules that are available to all installations.
 | [auto-database-backup](https://github.com/Baker-Street-Network/auto-database-backup)         | 17.0, 18.0 | Auto database backup module.                                             |
 | [odoo-development-pack](https://github.com/Baker-Street-Network/odoo-development-pack)       | 17.0, 18.0 | Mainly disables websockets for breakpoints.                              |
 | [knowledge-full-text](https://github.com/Baker-Street-Network/knowledge-full-text)           | 17.0, 18.0 | Allows full text searching of the Knowledge module.                      |
-| [knowledge-camera](https://github.com/Baker-Street-Network/knowledge-camera)                 | 17.0, 18.0 | Allows capturing images straight from the Odoo module.                   |
+| [knowledge-camera](https://github.com/Baker-Street-Network/knowledge-camera)                 | 17.0, 18.0 | Allows capturing images straight from the Odoo Knowledge module.         |
 | [cd-styles](https://github.com/Baker-Street-Network/cd-styles)                               | 17.0, 18.0 | Enlarges buttons and various other tweaks.                               |
 | [itlibertas-timesheet](https://github.com/Baker-Street-Network/itlibertas-timesheet)         | 18.0       | Timesheet tracking for Odoo Community                                    |
 | [bi-plaid-integration](https://github.com/Baker-Street-Network/bi-plaid-integration)         | 18.0       | A Plaid integration for Odoo Community                                   |
@@ -48,6 +48,7 @@ These are modules that are available to all installations.
 | [knowledgebase](https://github.com/Baker-Street-Network/knowledgebase)                       | 18.0       | Makes Knowledge articles available to the website.                       |
 | [google-console](https://github.com/Baker-Street-Network/google-console)                     | 18.0       | Connects to the Google Cloud console to sync information to Odoo.        |
 | [website-downloads](https://github.com/Baker-Street-Network/website-downloads)               | 18.0       | Makes downloads available from the website.                              |
+| [invoice-hide...](https://github.com/Baker-Street-Network/invoice-hide-bank-info)            | 18.0       | Allows you to hide bank account information on invoices.                 |
 
 To install one of these modules, use the following command:
 `git submodule add "https://github.com/Baker-Street-Network/module-name" ./addons/module_name
