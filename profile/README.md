@@ -24,7 +24,7 @@ Our status page is hosted by UptimeRobot and is [available here](https://status.
 ### Module Groups
 We have several collection of modules that we typically install on our hosted instances. Run all checkout scripts at the root the repository.
 
-**Odoo Themes** This is the default Odoo theme: `git submodule add https://github.com/odoo/design-themes addons/odoo/design-themes`<br />
+**Odoo Themes** This is the default Odoo theme: `git submodule add -b 18.0 https://github.com/odoo/design-themes addons/odoo/design-themes`<br />
 **Essentials** This is a collection of modules that we developed internally that are used heavily. To add these to your instance: `git submodule add -b 18.0 https://github.com/Baker-Street-Network/essentials addons/baker-street/essentials`<br />
 **Open Essentials** These are modules that we find useful in Community installs. To checkout these: `git submodule add -b 18.0 https://github.com/Baker-Street-Network/open-essentials addons/baker-street/open-essentials`<br />
 **MuK Web Theme** This is a nice theme for community installs: `git submodule add -b 18.0 https://github.com/muk-it/odoo-modules addons/muk/odoo-modules`<br />
