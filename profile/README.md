@@ -30,6 +30,7 @@ We have several collection of modules that we typically install on our hosted in
 **MuK Web Theme** This is a nice theme for community installs: `git submodule add -b 18.0 https://github.com/muk-it/odoo-modules addons/muk/odoo-modules`<br />
 **Cybrosis Addons** Each night, we sync a small list of Cybrosis modules to our own clone: `git submodule add -b 18.0 https://github.com/Baker-Street-Network/cybrosis addons/baker-street/cybrosys`<br />
 **OCA (e.g. web)** We also use many of modules from OCA: `git submodule add -b 18.0 https://github.com/oca/web addons/oca/web`
+**Odoomates Accounting** Odoomates offers a great accounting module: `git submodule add -b 18.0 https://github.com/odoomates/odooapps addons/odoomates/odooapps`
 
 If you are moving a module from a repository to a Git submodule, you'll have to clean the index first:
 `git rm -r --cached addons/module_name`
