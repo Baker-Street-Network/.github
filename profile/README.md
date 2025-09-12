@@ -24,9 +24,9 @@ Our status page is hosted by UptimeRobot and is [available here](https://status.
 ### Module Groups
 We have several collection of modules that we typically install on our hosted instances. Run all checkout scripts at the root the repository.
 
-**Essentials** This is a collection of modules that we developed internally that are used heavily. To add these to your instance: `git submodule add https://github.com/Baker-Street-Network/essentials addons/baker-street/essentials`
-**Open Essentials** These are modules that we find useful in Community installs. To checkout these: `git submodule add https://github.com/Baker-Street-Network/open-essentials addons/baker-street/open-essentials`
-**MuK Web Theme** This is a nice theme for community installs: `git submodule add https://github.com/muk-it/odoo-modules addons/muk/odoo-modules`
+**Essentials** This is a collection of modules that we developed internally that are used heavily. To add these to your instance: `git submodule add https://github.com/Baker-Street-Network/essentials addons/baker-street/essentials`<br />
+**Open Essentials** These are modules that we find useful in Community installs. To checkout these: `git submodule add https://github.com/Baker-Street-Network/open-essentials addons/baker-street/open-essentials`<br />
+**MuK Web Theme** This is a nice theme for community installs: `git submodule add https://github.com/muk-it/odoo-modules addons/muk/odoo-modules`<br />
 **Cybrosis Addons** Each night, we sync a small list of Cybrosis modules to our own clone: `git submodule add https://github.com/Baker-Street-Network/cybrosis addons/baker-street/cybrosys`
 
 If you are moving a module from a repository to a Git submodule, you'll have to clean the index first:
