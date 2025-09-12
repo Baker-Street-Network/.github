@@ -28,7 +28,8 @@ We have several collection of modules that we typically install on our hosted in
 **Essentials** This is a collection of modules that we developed internally that are used heavily. To add these to your instance: `git submodule add https://github.com/Baker-Street-Network/essentials addons/baker-street/essentials`<br />
 **Open Essentials** These are modules that we find useful in Community installs. To checkout these: `git submodule add https://github.com/Baker-Street-Network/open-essentials addons/baker-street/open-essentials`<br />
 **MuK Web Theme** This is a nice theme for community installs: `git submodule add https://github.com/muk-it/odoo-modules addons/muk/odoo-modules`<br />
-**Cybrosis Addons** Each night, we sync a small list of Cybrosis modules to our own clone: `git submodule add https://github.com/Baker-Street-Network/cybrosis addons/baker-street/cybrosys`
+**Cybrosis Addons** Each night, we sync a small list of Cybrosis modules to our own clone: `git submodule add https://github.com/Baker-Street-Network/cybrosis addons/baker-street/cybrosys`<br />
+**OCA (e.g. web)** We also use many of modules from OCA: `git submodule add https://github.com/oca/web addons/oca/web`
 
 If you are moving a module from a repository to a Git submodule, you'll have to clean the index first:
 `git rm -r --cached addons/module_name`
