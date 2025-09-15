@@ -19,21 +19,52 @@ Our status page is hosted by UptimeRobot and is [available here](https://status.
 | [kent.cropdoc.report](https://kent.cropdoc.report)     | Community    | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/kent-martin/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/kent-martin/actions/workflows/build_and_deploy.yml)
 | [nathan.cropdoc.report](https://nathan.cropdoc.report) | Community    | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/nathan-martin/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/nathan-martin/actions/workflows/build_and_deploy.yml)
 | [kevin.cropdoc.report](kevin.cropdoc.report)           | Community    | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/kevin-martin/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/kevin-martin/actions/workflows/build_and_deploy.yml)
+| [cf.cropdoc.report](cf.cropdoc.report)                 | Community    | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/cf/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/cf/actions/workflows/build_and_deploy.yml)
 | [erp.anabaptist...](erp.anabaptistcodeblocks.com)      | Community    | 18.0    | [![Build and Deploy](https://github.com/Baker-Street-Network/codeblocks/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/Baker-Street-Network/codeblocks/actions/workflows/build_and_deploy.yml)
 
-### Module Groups
+## Accessing Backups
+If you are routinely downloading and testing backups, check out our utilities repository: [Baker-Street-Network/utilities](https://github.com/Baker-Street-Network/utilities) <br />
+To simply browse backups and see availability, access the backup browser: https://backups.bakerstreet.network/backups (or, locally, http://192.168.55.135/backups, without auth)
+
+Steelgrade is the in-house utility for running backups on our production systems. It is comprised of three parts:
+- Steelgrade Backup: [Baker-Street-Network/steelgrade-backup](https://github.com/Baker-Street-Network/steelgrade-backup)
+- Steelgrade Cleaner: [Baker-Street-Network/steelgrade-cleaner](https://github.com/Baker-Street-Network/steelgrade-cleaner)
+- Steelgrade Mover: [Baker-Street-Network/steelgrade-mover](https://github.com/Baker-Street-Network/steelgrade-mover)
+
+## Initializing an Instance
+To create a new instance, follow the instructions in the [odoo-template repository](https://github.com/Baker-Street-Network/odoo-template).
+
+## Module Groups
 We have several collection of modules that we typically install on our hosted instances. Run all checkout scripts at the root the repository.
 
-**Odoo Themes** This is the default Odoo theme: `git submodule add -b 18.0 https://github.com/odoo/design-themes addons/odoo/design-themes`<br />
-**Essentials** This is a collection of modules that we developed internally that are used heavily. To add these to your instance: `git submodule add -b 18.0 https://github.com/Baker-Street-Network/essentials addons/baker-street/essentials`<br />
-**Open Essentials** These are modules that we find useful in Community installs. To checkout these: `git submodule add -b 18.0 https://github.com/Baker-Street-Network/open-essentials addons/baker-street/open-essentials`<br />
-**MuK Web Theme** This is a nice theme for community installs: `git submodule add -b 18.0 https://github.com/muk-it/odoo-modules addons/muk/odoo-modules`<br />
-**Cybrosis Addons** Each night, we sync a small list of Cybrosis modules to our own clone: `git submodule add -b 18.0 https://github.com/Baker-Street-Network/cybrosis addons/baker-street/cybrosys`<br />
-**OCA (e.g. web)** We also use many of modules from OCA: `git submodule add -b 18.0 https://github.com/oca/web addons/oca/web`
-**Odoomates Accounting** Odoomates offers a great accounting module: `git submodule add -b 18.0 https://github.com/odoomates/odooapps addons/odoomates/odooapps`
+**Odoo Themes** This is the default Odoo theme:
+```
+git submodule add -b 18.0 https://github.com/odoo/design-themes addons/odoo/design-themes
+```
+**Essentials** This is a collection of modules that we developed internally that are used heavily. To add these to your instance:
+```
+git submodule add -b 18.0 https://github.com/Baker-Street-Network/essentials addons/baker-street/essentials
+```
+**Open Essentials** These are modules that we find useful in Community installs. To checkout these:
+```
+git submodule add -b 18.0 https://github.com/Baker-Street-Network/open-essentials addons/baker-street/open-essentials
+```
+**MuK Web Theme** This is a nice theme for community installs:
+```
+git submodule add -b 18.0 https://github.com/muk-it/odoo-modules addons/muk/odoo-modules
+```
+**Cybrosis Addons** Each night, we sync a small list of Cybrosis modules to our own clone:
+```
+git submodule add -b 18.0 https://github.com/Baker-Street-Network/cybrosis addons/baker-street/cybrosys
+```
+**OCA (e.g. web)** We also use many of modules from OCA:
+```
+git submodule add -b 18.0 https://github.com/oca/web addons/oca/web
+```
+**Odoomates Accounting** Odoomates offers a great accounting module. This is a nightly clone from their repository with only the applicable modules available:
+```
+git submodule add -b 18.0 https://github.com/odoomates/odooapps addons/odoomates/odooapps
+```
 
 If you are moving a module from a repository to a Git submodule, you'll have to clean the index first:
 `git rm -r --cached addons/module_name`
-
-### Initializing an Instance
-To create a new instance, follow the instructions in the [odoo-template repository](https://github.com/Baker-Street-Network/odoo-template).
